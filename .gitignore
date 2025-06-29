@@ -1,11 +1,19 @@
-venv/
-__pycache__/
-*.pyc
-.DS_Store
-*.log
-*.csv
-*.png
-*.json
+# Данные
 data/raw/
 data/processed/
 results/figures/
+
+# Виртуальное окружение
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Системные файлы
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/

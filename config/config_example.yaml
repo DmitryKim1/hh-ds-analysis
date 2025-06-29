@@ -1,0 +1,15 @@
+api:
+  base_url: "https://api.hh.ru/vacancies"
+  user_agent: "HH DS Analysis/1.0 (kdc97@rambler.ru)"
+  timeout: 5
+
+data:
+  per_page: 50
+  pages: 20
+  search_text: "Data Scientist"
+
+# Пример дополнительных параметров:
+# filters:
+#   area: 1         # Москва
+#   specialization: 1.221   # Data Science
+
