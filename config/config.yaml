@@ -1,0 +1,18 @@
+api:
+  query: "Data Scientist"
+  area: 1
+  period: 30
+  max_pages: 3
+  request_delay: 0.2
+
+analysis:
+  salary:
+    min: 30000
+    max: 1000000
+  wordcloud:
+    width: 1200
+    height: 800
+    max_words: 150
+    stopwords: ["требования", "обязанности", "необходимо", "уметь", "знание"]
+  figures:
+    dpi: 120
